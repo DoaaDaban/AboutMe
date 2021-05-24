@@ -7,64 +7,128 @@ console.log(userName);
 alert("Hello " + userName + " welcome to My webPage");
 
 
-    let favColor= prompt('Do you think my Fav color is white? (Y/N)');
+    let ans= prompt('Do you think my Fav color is white? (Y/N)');
+    let favColor =  ans.toLowerCase();
+
+
+
+        if(favColor === "yes" || favColor === "y")  {
+
+            //console.log (favColor)
+            alert ("Hmm! yes! My fav color is white")
+        }
+
     
-//    // console.log(favColor=favColor.toUpperCase());
+        else if(favColor === "no" || favColor === "n" ){
+            // console.log (favColor);
+            alert ("Hmm! no! My fav color is white");
+        }
 
-//         if (favColor.toUpperCase === ( "yes" | "y") ) {
-
-//             //console.log (favColor)
-//             alert ("Hmm! yes! My fav color is white")
-//         }
-
-        
-
-//         // else if (favColor.toUpperCase === "NO" | "N" ){
-//         //     console.log (favColor);
-//         //     alert ("Hmm! no! My fav color is white");
-//         // }
-
-//         else {
-//            // let answer=prompt("please answer y or n or yes or no only" )
-//             alert("Try again!")
-//         }
+        else {
+          
+            alert("Try again!");
+        }
 
         
 
- let favDrink= prompt("Do you think my fav drink is coffee? (Y/N)");
-    //console.log(favDrink=favDrink.toUpperCase());
-
-    // switch(favDrink.toUpperCase == yes | y){
-
-    //     case yes | y:
-    //         alert ("Hmm! Yes! My fav drink is cofee")
-    //         break;
-
-    //      case no | n:
-    //         alert ("Hmm! NO! My fav drink is cofee")
-    //         break;
-
-
-    // }
-
-      
+      let ans2= prompt("Do you think my fav drink is coffee? (Y/N)");
+      let favDrink =  ans2.toLowerCase();
 
 
 
- let favMeal= prompt("Do you think my fav Meal is pizza? (Y/N)");
- //console.log(favMeal=favMeal.toUpperCase());
+      if(favDrink === "yes" || favDrink === "y")  {
 
- alert ("Hmm! My fav meal is pasta");
+          //console.log (favDrink)
+          alert ("Hmm! yes! My fav drink is coffee")
+      }
 
- let favDessert= prompt("Do you think my fav dessert is chocolate? (Y/N)");
- //console.log(favDessert=favDessert.toUpperCase());
+  
+      else if(favDrink === "no" || favDrink === "n" ){
+          // console.log (favDrink);
+          alert ("Hmm! no! My fav drink is coffee");
+      }
 
- alert ("Hmm! My fav dessert is chocolate");
+      else {
+        
+          alert("Try again!");
+      }
 
-let favMusic= prompt("Do you think my fav music is soft music? (Y/N)");
- //console.log(favMusic=favMusic.toUpperCase());
+   
+
+    
+
+ let ans3= prompt("Do you think my fav Meal is pasta? (Y/N)");
+ let favMeal =  ans3.toLowerCase();
+
+
+
+ if(favMeal === "yes" || favMeal === "y")  {
+
+     //console.log (favMeal)
+     alert ("Hmm! yes! My fav Meal is pasta")
+ }
+
+
+ else if(favMeal === "no" || favMeal === "n" ){
+     // console.log (favMeal);
+     alert ("Hmm! no! My fav Meal is pasta");
+ }
+
+ else {
+   
+     alert("Try again!");
+ }
  
- alert ("Hmm! My fav music is pop music");
+ 
+
+
+
+ let ans4= prompt("Do you think my fav dessert is chocolate? (Y/N)");
+ let favDessert =  ans4.toLowerCase();
+
+
+
+ if(favDessert === "yes" || favDessert === "y")  {
+
+     //console.log (favDessert)
+     alert ("Hmm! yes! My fav dessert is chocolate")
+ }
+
+
+ else if(favDessert === "no" || favDessert === "n" ){
+     // console.log (favDessert);
+     alert ("Hmm! no! My fav dessert is chocolate");
+ }
+
+ else {
+   
+     alert("Try again!");
+ }
+ 
+
+
+let ans5= prompt("Do you think my fav music is pop music? (Y/N)");
+let favMusic =  ans5.toLowerCase();
+
+
+
+if(favMusic === "yes" || favMusic === "y")  {
+
+    //console.log (favMusic)
+    alert ("Hmm! yes! My fav music is pop")
+}
+
+
+else if(favMusic === "no" || favMusic === "n" ){
+    // console.log (favMusic);
+    alert ("Hmm! no! My fav music is pop");
+}
+
+else {
+  
+    alert("Try again!");
+}
+ 
 
 
 alert(" Thanks " + userName + " For visiting my webPage! and u welcome anyTime")
