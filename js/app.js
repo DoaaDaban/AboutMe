@@ -104,31 +104,31 @@ alert("Hello " + userName + " welcome to My webPage");
  }
  qestion4();
 // //Q5
-// function qestion5(){
+function qestion5(){
 
-// let ans5= prompt("Do you think my fav music is pop music? (Y/N)");
-// let favMusic =  ans5.toLowerCase();
+let ans5= prompt("Do you think my fav music is pop music? (Y/N)");
+let favMusic =  ans5.toLowerCase();
 
-// if(favMusic === "yes" || favMusic === "y")  {
+if(favMusic === "yes" || favMusic === "y")  {
 
-//     //console.log (favMusic)
-//     alert ("Hmm! yes! My fav music is pop")
-//     score++;
-// }
-// else if(favMusic === "no" || favMusic === "n" ){
-//     // console.log (favMusic);
-//     alert ("Hmm! no! My fav music is pop");
-// }
+    //console.log (favMusic)
+    alert ("Hmm! yes! My fav music is pop")
+    score++;
+}
+else if(favMusic === "no" || favMusic === "n" ){
+    // console.log (favMusic);
+    alert ("Hmm! no! My fav music is pop");
+}
 
-// else {
+else {
   
-//     alert("Try again!");
-// }
+    alert("Try again!");
+}
 
 
-// alert(" Thanks " + userName + " For visiting my webPage! and u welcome anyTime")
-// }
-// qestion5();
+alert(" Thanks " + userName + " For visiting my webPage! and u welcome anyTime")
+}
+qestion5();
 
 // // question 6 lab3
 // function qestion6(){
