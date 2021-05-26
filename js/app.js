@@ -55,54 +55,54 @@ alert("Hello " + userName + " welcome to My webPage");
      qestion2();
 
 //    //Q3
-//    function qestion3(){
+   function qestion3(){
 
-//     let ans3= prompt("Do you think my fav Meal is pasta? (Y/N)");
-//     let favMeal =  ans3.toLowerCase();
+    let ans3= prompt("Do you think my fav Meal is pasta? (Y/N)");
+    let favMeal =  ans3.toLowerCase();
 
-//     if(favMeal === "yes" || favMeal === "y")  {
+    if(favMeal === "yes" || favMeal === "y")  {
 
-//      //console.log (favMeal)
-//      alert ("Hmm! yes! My fav Meal is pasta")
-//      score++;
-//  }
+     //console.log (favMeal)
+     alert ("Hmm! yes! My fav Meal is pasta")
+     score++;
+ }
 
-//  else if(favMeal === "no" || favMeal === "n" ){
-//      // console.log (favMeal);
-//      alert ("Hmm! no! My fav Meal is pasta");
-//  }
+ else if(favMeal === "no" || favMeal === "n" ){
+     // console.log (favMeal);
+     alert ("Hmm! no! My fav Meal is pasta");
+ }
 
-//  else {
+ else {
    
-//      alert("Try again!");
-//  }
-//    }
-//    qestion3();
-//  //Q4
-//  function qestion4(){
-//  let ans4= prompt("Do you think my fav dessert is chocolate? (Y/N)");
-//  let favDessert =  ans4.toLowerCase();
+     alert("Try again!");
+ }
+   }
+   qestion3();
+ //Q4
+ function qestion4(){
+ let ans4= prompt("Do you think my fav dessert is chocolate? (Y/N)");
+ let favDessert =  ans4.toLowerCase();
 
-//  if(favDessert === "yes" || favDessert === "y")  {
+ if(favDessert === "yes" || favDessert === "y")  {
 
-//      //console.log (favDessert)
-//      alert ("Hmm! yes! My fav dessert is chocolate")
-//      score++;
-//  }
+     //console.log (favDessert)
+     alert ("Hmm! yes! My fav dessert is chocolate")
+     score++;
+ }
 
 
-//  else if(favDessert === "no" || favDessert === "n" ){
-//      // console.log (favDessert);
-//      alert ("Hmm! no! My fav dessert is chocolate");
-//  }
+ else if(favDessert === "no" || favDessert === "n" ){
+     // console.log (favDessert);
+     alert ("Hmm! no! My fav dessert is chocolate");
+ }
 
-//  else {
+ else {
    
-//      alert("Try again!");
-//  }
+     alert("Try again!");
+ }
  
-//  }
-//  qestion4();
+ }
+ qestion4();
 // //Q5
 // function qestion5(){
 
