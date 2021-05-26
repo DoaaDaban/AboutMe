@@ -131,72 +131,72 @@ alert(" Thanks " + userName + " For visiting my webPage! and u welcome anyTime")
 qestion5();
 
 // // question 6 lab3
-// function qestion6(){
-// let numUser= Number(prompt("please enter any number between 1 to 6"));
+function qestion6(){
+let numUser= Number(prompt("please enter any number between 1 to 6"));
 
-// for (let i=1; i<4; i++){
+for (let i=1; i<4; i++){
  
 
-//     if (numUser === 1){
-//       alert("ur guess is too low");
-//        numUser= Number(prompt("try ur next attempt!"));
+    if (numUser === 1){
+      alert("ur guess is too low");
+       numUser= Number(prompt("try ur next attempt!"));
       
-//     }
+    }
   
-//     else if (numUser === 2 || numUser === 4){
-//         alert("ur guess is too close");
-//          numUser= Number(prompt("try ur next attempt!"));
+    else if (numUser === 2 || numUser === 4){
+        alert("ur guess is too close");
+         numUser= Number(prompt("try ur next attempt!"));
         
-//     }
+    }
 
-//     else if (numUser === 5 || numUser === 6){
-//         alert("ur guess is too high");
-//          numUser= Number(prompt("try ur next attempt!"));
+    else if (numUser === 5 || numUser === 6){
+        alert("ur guess is too high");
+         numUser= Number(prompt("try ur next attempt!"));
         
-//     }
+    }
 
-//     else if (numUser === 3){
-//         alert("ur guess is TRUE!");
-//         score++;
-//         break;
-//     }
+    else if (numUser === 3){
+        alert("ur guess is TRUE!");
+        score++;
+        break;
+    }
 
-//     else{
+    else{
 
-//          numUser= Number( prompt("pls enter only from 1-6"));
-//     }
+         numUser= Number( prompt("pls enter only from 1-6"));
+    }
 
-//     alert ("ur attempts over! and the correct answer is 3");
-// }
-// }
-// qestion6();
-// // question 7 lab3 
-// function question7(){
-// let favCar=['bmw' ,'lamborgini', 'rr' , 'mercedes'];
-// let gameNum7="";
-// let correctFlag=false;
-// for(let i=0; i< 6 ;i++){
-//  gameNum7= (prompt("guess what is my fav car?")).toLowerCase(); 
-// for(let j=0; j< favCar.length ; j++){
-//     if(gameNum7 === favCar[j]){
-//       alert(`You got it! ${favCar[j]} is my fav car`)
-//       correctFlag=true;
+    alert ("ur attempts over! and the correct answer is 3");
+}
+}
+qestion6();
+// question 7 lab3 
+function question7(){
+let favCar=['bmw' ,'lamborgini', 'rr' , 'mercedes'];
+let gameNum7="";
+let correctFlag=false;
+for(let i=0; i< 6 ;i++){
+ gameNum7= (prompt("guess what is my fav car?")).toLowerCase(); 
+for(let j=0; j< favCar.length ; j++){
+    if(gameNum7 === favCar[j]){
+      alert(`You got it! ${favCar[j]} is my fav car`)
+      correctFlag=true;
       
-//      score++;
-//     }
-// }
-// if (correctFlag===true){
-//     alert(`here is my fav cars ${favCar}`);
-//     break;
-// }
-// if(i===5){
-//     alert(`U got all of ur attempts, so here is my fav cars ${favCar}`);
-// }
-// else if (i<6) {
-//     alert(" wrong, try u next attempt if its not ur attempts");
-// }
-// }
-// }
+     score++;
+    }
+}
+if (correctFlag===true){
+    alert(`here is my fav cars ${favCar}`);
+    break;
+}
+if(i===5){
+    alert(`U got all of ur attempts, so here is my fav cars ${favCar}`);
+}
+else if (i<6) {
+    alert(" wrong, try u next attempt if its not ur attempts");
+}
+}
+}
 
-// question7();
+question7();
 //    alert(`thanks for playing this game  ${userName} your score out of 7 is : ${score}`);
