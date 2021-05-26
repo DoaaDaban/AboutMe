@@ -9,6 +9,7 @@ alert("Hello " + userName + " welcome to My webPage");
        let score=0;
 
        //Q1
+    function question1(){
     let ans= prompt('Do you think my Fav color is white? (Y/N)');
     let favColor =  ans.toLowerCase();
 
@@ -26,8 +27,10 @@ alert("Hello " + userName + " welcome to My webPage");
             alert("Try again!");
         }
 
-        
+    }
+    question1();
      //Q2
+     function qestion2(){
       let ans2= prompt("Do you think my fav drink is coffee? (Y/N)");
       let favDrink =  ans2.toLowerCase();
 
@@ -48,8 +51,12 @@ alert("Hello " + userName + " welcome to My webPage");
         
           alert("Try again!");
       }
+    }
+    qestion2();
 
    //Q3
+   function qestion3(){
+
     let ans3= prompt("Do you think my fav Meal is pasta? (Y/N)");
     let favMeal =  ans3.toLowerCase();
 
@@ -69,8 +76,10 @@ alert("Hello " + userName + " welcome to My webPage");
    
      alert("Try again!");
  }
-
+   }
+   qestion3();
  //Q4
+ function qestion4(){
  let ans4= prompt("Do you think my fav dessert is chocolate? (Y/N)");
  let favDessert =  ans4.toLowerCase();
 
@@ -92,8 +101,11 @@ alert("Hello " + userName + " welcome to My webPage");
      alert("Try again!");
  }
  
-
+ }
+ qestion4();
 //Q5
+function qestion5(){
+
 let ans5= prompt("Do you think my fav music is pop music? (Y/N)");
 let favMusic =  ans5.toLowerCase();
 
@@ -112,13 +124,14 @@ else {
   
     alert("Try again!");
 }
- 
+
 
 alert(" Thanks " + userName + " For visiting my webPage! and u welcome anyTime")
-
+}
+qestion5();
 
 // question 6 lab3
-
+function qestion6(){
 let numUser= Number(prompt("please enter any number between 1 to 6"));
 
 for (let i=1; i<4; i++){
@@ -155,49 +168,35 @@ for (let i=1; i<4; i++){
 
     alert ("ur attempts over! and the correct answer is 3");
 }
-
-
+}
+qestion6();
 // question 7 lab3 
-
-
+function question7(){
 let favCar=['bmw' ,'lamborgini', 'rr' , 'mercedes'];
-
-let gameNum7= (prompt("guess what is my fav car?")).toLowerCase();
-
-console.log(gameNum7);
-
-let flag= false;
-
+let gameNum7="";
+let correctFlag=false;
 for(let i=0; i< 6 ;i++){
-
+ gameNum7= (prompt("guess what is my fav car?")).toLowerCase(); 
 for(let j=0; j< favCar.length ; j++){
- 
-    if(favCar[j] === gameNum7){
+    if(gameNum7 === favCar[j]){
       alert(`You got it! ${favCar[j]} is my fav car`)
-      flag= true;
-      score++;
-      break;
+      correctFlag=true;
+      
+     score++;
     }
-
-    // if(flag){
-    // break;
-    // }
-
-    
-    else{
-        gameNum7 =  prompt(" false! Try ur next attempt!");
-    }
-
-   
+}
+if (correctFlag===true){
+    alert(`here is my fav cars ${favCar}`);
+    break;
+}
+if(i===5){
+    alert(`U got all of ur attempts, so here is my fav cars ${favCar}`);
+}
+else if (i<6) {
+    alert(" wrong, try u next attempt if its not ur attempts");
+}
+}
 }
 
-}
-
-// let myCar='';
-// for(let i=0 ; i < favCar.length ; i++){
-//     myCar = myCar + ',' + favCar[i];
-
-// }
-//  alert('here is my fav cars'+ myCar)
-
-  alert(`thanks for playing this game  ${userName} your score out of 7 is : ${score}`);
+question7();
+   alert(`thanks for playing this game  ${userName} your score out of 7 is : ${score}`);
