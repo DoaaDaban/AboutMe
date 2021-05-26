@@ -199,4 +199,4 @@ else if (i<6) {
 }
 
 question7();
-//    alert(`thanks for playing this game  ${userName} your score out of 7 is : ${score}`);
+   alert(`thanks for playing this game  ${userName} your score out of 7 is : ${score}`);
