@@ -1,57 +1,64 @@
 'use strict';
 
 
-// let userName= prompt("Hello, whats ur name?");
-// console.log(userName);
+let userName= prompt("Hello, whats ur name?");
+console.log(userName);
 
-// alert("Hello " + userName + " welcome to My webPage");
+alert("Hello " + userName + " welcome to My webPage");
 
-//        let score=0;
+       let score=0;
 
-//        //Q1
-//     let ans= prompt('Do you think my Fav color is white? (Y/N)');
-//     let favColor =  ans.toLowerCase();
+       //Q1
+       function question1(){
+    let ans= prompt('Do you think my Fav color is white? (Y/N)');
+    let favColor =  ans.toLowerCase();
 
-//         if(favColor === "yes" || favColor === "y")  {
-//            //console.log (favColor)
-//             alert ("Hmm! yes! My fav color is white")
-//             score++;
-//         }
-//         else if(favColor === "no" || favColor === "n" ){
-//             // console.log (favColor);
-//             alert ("Hmm! no! My fav color is white");
-//         }
-//         else {
+        if(favColor === "yes" || favColor === "y")  {
+           //console.log (favColor)
+            alert ("Hmm! yes! My fav color is white")
+            score++;
+        }
+        else if(favColor === "no" || favColor === "n" ){
+            // console.log (favColor);
+            alert ("Hmm! no! My fav color is white");
+        }
+        else {
           
 //             alert("Try again!");
 //         }
 
-        
-//      //Q2
-//       let ans2= prompt("Do you think my fav drink is coffee? (Y/N)");
-//       let favDrink =  ans2.toLowerCase();
+    }
+    question1();
+     Q2
+      function qestion2(){
+      let ans2= prompt("Do you think my fav drink is coffee? (Y/N)");
+      let favDrink =  ans2.toLowerCase();
 
-//       if(favDrink === "yes" || favDrink === "y")  {
+      if(favDrink === "yes" || favDrink === "y")  {
 
-//           //console.log (favDrink)
-//           alert ("Hmm! yes! My fav drink is coffee")
-//           score++;
-//       }
+          //console.log (favDrink)
+          alert ("Hmm! yes! My fav drink is coffee")
+          score++;
+      }
   
-//       else if(favDrink === "no" || favDrink === "n" ){
-//           // console.log (favDrink);
-//           alert ("Hmm! no! My fav drink is coffee");
+      else if(favDrink === "no" || favDrink === "n" ){
+          // console.log (favDrink);
+          alert ("Hmm! no! My fav drink is coffee");
 
-//       }
+      }
 
-//       else {
+      else {
         
-//           alert("Try again!");
-//       }
+          alert("Try again!");
+      }
+    }
+     qestion2();
 
 //    //Q3
-//     let ans3= prompt("Do you think my fav Meal is pasta? (Y/N)");
-//     let favMeal =  ans3.toLowerCase();
+   function qestion3(){
+
+    let ans3= prompt("Do you think my fav Meal is pasta? (Y/N)");
+    let favMeal =  ans3.toLowerCase();
 
 //     if(favMeal === "yes" || favMeal === "y")  {
 
@@ -67,12 +74,14 @@
 
 //  else {
    
-//      alert("Try again!");
-//  }
-
-//  //Q4
-//  let ans4= prompt("Do you think my fav dessert is chocolate? (Y/N)");
-//  let favDessert =  ans4.toLowerCase();
+     alert("Try again!");
+ }
+   }
+   qestion3();
+ //Q4
+ function qestion4(){
+ let ans4= prompt("Do you think my fav dessert is chocolate? (Y/N)");
+ let favDessert =  ans4.toLowerCase();
 
 //  if(favDessert === "yes" || favDessert === "y")  {
 
@@ -92,97 +101,102 @@
 //      alert("Try again!");
 //  }
  
-
+ }
+ qestion4();
 // //Q5
-// let ans5= prompt("Do you think my fav music is pop music? (Y/N)");
-// let favMusic =  ans5.toLowerCase();
+function qestion5(){
 
-// if(favMusic === "yes" || favMusic === "y")  {
+let ans5= prompt("Do you think my fav music is pop music? (Y/N)");
+let favMusic =  ans5.toLowerCase();
 
-//     //console.log (favMusic)
-//     alert ("Hmm! yes! My fav music is pop")
-//     score++;
-// }
-// else if(favMusic === "no" || favMusic === "n" ){
-//     // console.log (favMusic);
-//     alert ("Hmm! no! My fav music is pop");
-// }
+if(favMusic === "yes" || favMusic === "y")  {
 
-// else {
+    //console.log (favMusic)
+    alert ("Hmm! yes! My fav music is pop")
+    score++;
+}
+else if(favMusic === "no" || favMusic === "n" ){
+    // console.log (favMusic);
+    alert ("Hmm! no! My fav music is pop");
+}
+
+else {
   
-//     alert("Try again!");
-// }
- 
+    alert("Try again!");
+}
 
-// alert(" Thanks " + userName + " For visiting my webPage! and u welcome anyTime")
 
+alert(" Thanks " + userName + " For visiting my webPage! and u welcome anyTime")
+}
+qestion5();
 
 // // question 6 lab3
+function qestion6(){
+let numUser= Number(prompt("please enter any number between 1 to 6"));
 
-// let numUser= Number(prompt("please enter any number between 1 to 6"));
-
-// for (let i=1; i<4; i++){
+for (let i=1; i<4; i++){
  
 
-//     if (numUser === 1){
-//       alert("ur guess is too low");
-//        numUser= Number(prompt("try ur next attempt!"));
+    if (numUser === 1){
+      alert("ur guess is too low");
+       numUser= Number(prompt("try ur next attempt!"));
       
-//     }
+    }
   
-//     else if (numUser === 2 || numUser === 4){
-//         alert("ur guess is too close");
-//          numUser= Number(prompt("try ur next attempt!"));
+    else if (numUser === 2 || numUser === 4){
+        alert("ur guess is too close");
+         numUser= Number(prompt("try ur next attempt!"));
         
-//     }
+    }
 
-//     else if (numUser === 5 || numUser === 6){
-//         alert("ur guess is too high");
-//          numUser= Number(prompt("try ur next attempt!"));
+    else if (numUser === 5 || numUser === 6){
+        alert("ur guess is too high");
+         numUser= Number(prompt("try ur next attempt!"));
         
-//     }
+    }
 
-//     else if (numUser === 3){
-//         alert("ur guess is TRUE!");
-//         score++;
-//         break;
-//     }
+    else if (numUser === 3){
+        alert("ur guess is TRUE!");
+        score++;
+        break;
+    }
 
-//     else{
+    else{
 
-//          numUser= Number( prompt("pls enter only from 1-6"));
-//     }
+       numUser= Number( prompt("pls enter only from 1-6"));
+  }
 
-//     alert ("ur attempts over! and the correct answer is 3");
-// }
-
-
+    alert ("ur attempts over! and the correct answer is 3");
+}
+}
+qestion6();
 // question 7 lab3 
+function question7(){
 let favCar=['bmw' ,'lamborgini', 'rr' , 'mercedes'];
 let gameNum7="";
 let correctFlag=false;
-
 for(let i=0; i< 6 ;i++){
-  gameNum7= (prompt("guess what is my fav car?")).toLowerCase(); 
-     for(let j=0; j< favCar.length ; j++){
-       if(gameNum7 === favCar[j]){
-        alert(`You got it! ${favCar[j]} is my fav car`)
-        correctFlag=true;
-       // score++;
-     }
+ gameNum7= (prompt("guess what is my fav car?")).toLowerCase(); 
+for(let j=0; j< favCar.length ; j++){
+    if(gameNum7 === favCar[j]){
+      alert(`You got it! ${favCar[j]} is my fav car`)
+      correctFlag=true;
+      
+     score++;
     }
-
+}
 if (correctFlag===true){
     alert(`here is my fav cars ${favCar}`);
+    break;
 }
-
 if(i===5){
     alert(`U got all of ur attempts, so here is my fav cars ${favCar}`);
 }
 else if (i<6) {
-    alert(" wrong, try u next attempt if its not ur (6th) final attempts");
+    alert(" wrong, try u next attempt if its not ur attempts");
+}
+}
 }
 
-}
-
-  //alert(`thanks for playing this game  ${userName} your score out of 7 is : ${score}`);
+question7();
+   alert(`thanks for playing this game  ${userName} your score out of 7 is : ${score}`);
