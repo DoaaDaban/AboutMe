@@ -135,19 +135,19 @@ question5();
 
 //  question 6 lab3
 function question6(){
-let numUser= Number(prompt("please enter any number between 1 to 6"));
 for (let i=0; i<4; i++){
+    let numUser= Number(prompt("please enter any number between 1 to 6"));
     if (numUser === 1){
       alert("ur guess is too low");
-       numUser= Number(prompt("try ur next attempt!")); 
+      // numUser= Number(prompt("try ur next attempt!")); 
     }
     else if (numUser === 2 || numUser === 4){
         alert("ur guess is too close");
-         numUser= Number(prompt("try ur next attempt!"));    
+        // numUser= Number(prompt("try ur next attempt!"));    
     }
     else if (numUser === 5 || numUser === 6){
         alert("ur guess is too high");
-         numUser= Number(prompt("try ur next attempt!"));   
+        // numUser= Number(prompt("try ur next attempt!"));   
     }
     else if (numUser === 3){
         alert("ur guess is TRUE!");
@@ -158,7 +158,7 @@ for (let i=0; i<4; i++){
       numUser= Number( prompt("pls enter only from 1-6"));
   }
 }
-alert ("ur attempts over! and the correct answer is 3");   
+alert ("ur attempts over! and the correct answer is 3");
 }
 question6();
 
